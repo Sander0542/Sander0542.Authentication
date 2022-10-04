@@ -1,0 +1,32 @@
+<Project>
+    <PropertyGroup>
+        <Authors>Sander0542</Authors>
+        <Description>Authentication providers for ASP.NET Core.</Description>
+        <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <NoWarn>$(NoWarn);CS1591;NU5105;NU5125</NoWarn>
+        <Nullable>annotations</Nullable>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageProjectUrl>https://github.com/Sander0542/Sander0542.Authentication.Authelia</PackageProjectUrl>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/Sander0542/Sander0542.Authentication.Authelia</RepositoryUrl>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="$(MSBuildThisFileDirectory)/LICENSE.txt">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Pack>true</Pack>
+            <PackagePath>LICENSE</PackagePath>
+            <Visible>false</Visible>
+        </Content>
+        <Content Include="$(MSBuildThisFileDirectory)/README.md">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Pack>true</Pack>
+            <PackagePath>README.md</PackagePath>
+            <Visible>false</Visible>
+        </Content>
+    </ItemGroup>
+</Project>

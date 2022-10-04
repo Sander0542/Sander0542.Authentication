@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="../src.props" />
+
+    <PropertyGroup>
+        <Description>ASP.NET Core middleware that enables an application to receive Trusted Headers from Authelia.</Description>
+    </PropertyGroup>
+
+</Project>
