@@ -7,7 +7,7 @@
         <NeutralLanguage>en-US</NeutralLanguage>
         <NoWarn>$(NoWarn);CS1591;NU5105;NU5125</NoWarn>
         <Nullable>annotations</Nullable>
-        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
         <PackageProjectUrl>https://github.com/Sander0542/Sander0542.Authentication.Authelia</PackageProjectUrl>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <RepositoryType>git</RepositoryType>
@@ -16,13 +16,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Content Include="$(MSBuildThisFileDirectory)/LICENSE">
+        <Content Include="$(SolutionDir)/LICENSE.txt">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <Pack>true</Pack>
-            <PackagePath>LICENSE</PackagePath>
+            <PackagePath>LICENSE.txt</PackagePath>
             <Visible>false</Visible>
         </Content>
-        <Content Include="$(MSBuildThisFileDirectory)/README.md">
+        <Content Include="$(SolutionDir)/README.md">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <Pack>true</Pack>
             <PackagePath>README.md</PackagePath>
