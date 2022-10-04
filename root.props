@@ -8,10 +8,10 @@
         <NoWarn>$(NoWarn);CS1591;NU5105;NU5125</NoWarn>
         <Nullable>annotations</Nullable>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-        <PackageProjectUrl>https://github.com/Sander0542/Sander0542.Authentication.Authelia</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/Sander0542/Sander0542.Authentication</PackageProjectUrl>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/Sander0542/Sander0542.Authentication.Authelia</RepositoryUrl>
+        <RepositoryUrl>https://github.com/Sander0542/Sander0542.Authentication</RepositoryUrl>
         <IsPackable>false</IsPackable>
     </PropertyGroup>
 
