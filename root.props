@@ -16,7 +16,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Content Include="$(MSBuildThisFileDirectory)/LICENSE.txt">
+        <Content Include="$(MSBuildThisFileDirectory)/LICENSE">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <Pack>true</Pack>
             <PackagePath>LICENSE</PackagePath>
